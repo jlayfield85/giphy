@@ -7,8 +7,8 @@ var stillGif;
 //Button
 function createButtons(){
 	$('#Movie-Button').empty();
-	for(var i = 0; i < showTitle.length; i++){
-		var showBtn = $('<button>').text(showTitle[i]).addClass('showBtn').attr({'data-name': showTitle[i]});
+	for(var i = 0; i < movieTitle.length; i++){
+		var showBtn = $('<button>').text(movieTitle[i]).addClass('showBtn').attr({'data-name': movieTitle[i]});
 		$('#Movie-Button').append(showBtn);
 	}
 
