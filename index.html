@@ -1,14 +1,37 @@
-<!DOCTYPE html></body>
+<!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
-    <title>Trivia Game Basic</title>
-
+    <title>Movie GIF</title>
     <!--Link to Reset CSS-->
     <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
     <!--Link to CSS Stylesheet-->
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
+
 <body>
+    <div class='container'>
+        <div class='row'>
+            <div id='MovieButton'></div>
+        </div>
+        <div class='row'>
+            <div class='col-lg-9'>
+                <div class='display'></div>
+            </div>
+            <div class='col-lg-3'>
+                <form id='Movie-Form'>
+                    <label for='newMovieInpUt'>Add Your Show GIF</label>
+                    <input type='text' id='newMovieInput'>
+                    <br>
+                    <input id='addMovie' type='submit' value='Submit'>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
